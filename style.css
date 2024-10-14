@@ -1,0 +1,45 @@
+.game-random{
+    box-shadow: 0 1px 5px 1px rgb(0 0 0 / 20%);
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.game-data{
+    width: 100%;
+    margin-top: 10px;
+}
+.btn-event{
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #DBDCDE;
+    padding: 15px;
+    box-shadow: 0 1px 5px 1px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-start{
+    margin-top: 10px;
+    color: #000
+}
+#btnLess{
+    background: #cc4531;
+}
+#btnEqual{
+    background: #1baa65;
+}
+#btnOver{
+    background: #999;
+}
+#btnRetry{
+    color: #000
+}
+.btn-group{
+    gap: 10px;
+}
