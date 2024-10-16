@@ -79,6 +79,11 @@ document.getElementById('btnOver').addEventListener('click', function () {
             gameRun = false;
         } else {
             minValue = answerNumber + 1;
+            
+            if (minValue > maxValue) {
+                minValue = maxValue;
+            }
+
             answerNumber = Math.floor((minValue + maxValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
@@ -98,6 +103,11 @@ document.getElementById('btnLess').addEventListener('click', function () {
             gameRun = false;
         } else {
             maxValue = answerNumber - 1;
+
+            if (maxValue < minValue) {
+                maxValue = minValue;
+            }
+
             answerNumber = Math.floor((minValue + maxValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
